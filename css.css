@@ -1,0 +1,21 @@
+.navbar {
+    width: 175px;
+}
+
+.navbar h3 {
+    font-size: 18px;
+}
+
+.navbar a {
+    display: block;
+    background-color: #f2f2f2; /* cinza claro */
+    color: black;
+    padding: 12px;
+    text-decoration: none; /* remover sublinhado */
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar a:hover {
+    background-color: #444444; /* fundo escuro */
+    color: white; /* texto branco */
+}
