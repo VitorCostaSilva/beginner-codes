@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="estilo.css">  
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Calligraffitti"/>
+</head>
+<body>
+  <form>
+    <fieldset id="field" style="display: inline-block">
+      <legend id="legenda">Cadastre-se</legend>
+      <table>
+        <tr>
+          <td class="grupo1">Nome:</td>
+          <td><input type="text" size="60"></td>
+        </tr>
+        <tr>
+          <td class="grupo1">Endereço:</td>
+          <td><input type="text" size="60"></td>
+        </tr>
+        <tr>
+          <td class="grupo1">E-mail:</td>
+          <td><input type="text" size="60"></td>
+        </tr>
+        <tr>
+          <td class="grupo1">Gênero</td>
+          <td>
+            <input type="radio" name="genero" checked value="masc" class="inputs"/> masculino <br>
+            <input type="radio" name="genero"> feminino
+          </td>
+        </tr>
+        <tr>
+          <td class="grupo1">Hobbies</td>
+          <td>
+            <input type="checkbox">pescar<br>
+            <input type="checkbox">dormir<br>
+            <input type="checkbox">estudar<br>
+            <input type="checkbox">namorar
+          </td>
+        </tr>
+        <tr>
+          <td class= "grupo1" id="sug">Sugestões</td>
+          <td><textarea cols="30" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center"><input type="submit" value="Enviar" id="enviar"></td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+</body>
+</html>
