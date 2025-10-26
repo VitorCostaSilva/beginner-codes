@@ -1,0 +1,20 @@
+create database medico;
+
+select * from consulta;
+
+SELECT nmPaciente, deEndPaciente
+FROM paciente;
+
+INSERT INTO medico VALUES (4,"Tiago da Silva","20221210","19900321", "Geriatra");
+
+INSERT INTO laboratorio VALUES (4, "Laboratorio 4"),(5, "Laboratorio 5");
+
+
+SELECT concat(nmPaciente, " ",  deEndPaciente) as NomeEndereco 
+FROM paciente; 
+
+SELECT * from consulta 
+where nuValor > 100;
+
+select nmMedico as Competencia
+from medico;
